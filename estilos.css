@@ -1,0 +1,177 @@
+.menu {
+  font-size: 28px;
+}
+.img{
+  width: 100vw;
+  justify-content: center;
+}
+
+ 
+.car__icon {
+  margin: 15px;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+}
+#count__cart {
+  background-color: #fc584c;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+  font-size: 16px;
+  display: none;
+  min-width: 33px;
+  text-align: center;
+}
+.titulo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.titulo:hover{
+  color: red;
+}
+
+#container {
+  margin-bottom: 30px;
+}
+.cargar {
+  width: auto;
+}
+
+.product-details {
+  font-weight: bold;
+}
+
+.compra-parrafo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 20px;
+  border: 1px, solid, black !important;
+  border-radius: 15px;
+}
+.datos-cliente {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.datos-parrafo {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.contact__secction__item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.contact-button {
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+.envio {
+  margin-top: 15px;
+}
+.mensaje-final {
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 20px;
+  border: 1px, solid, black;
+  border-radius: 15px;
+  margin: 20px;
+  text-align: center;
+}
+.footer {
+  background-color: #c9f0ec;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+}
+.footer:hover{
+  color:red;
+}
+
+
+
+.cart-container {
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  padding: 20px;
+  background: #e5c2bd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+.cart-opened {
+  visibility: visible;
+  opacity: 1;
+}
+#cart {
+  background: rgb(211, 255, 248);
+  width: 100%;
+  height: 90vh;
+  border-radius: 5px;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.cart {
+  padding: 20px;
+  background: #ffd3bf;
+}
+.car-img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+.producto-carrito {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.total-carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.finalizar {
+  width: 20%;
+}
+#remove-product {
+  width: 100px;
+  height: 60px;
+  text-align: center;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  background: #f55f5f;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.compra-finalizada {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 50px;
+  background: #f75b4f;
+}
+#cartButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.removeButton {
+  visibility: hidden;
+}
