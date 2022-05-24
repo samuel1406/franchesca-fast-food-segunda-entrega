@@ -225,3 +225,20 @@ const volverATienda = () => {
 const actualizarStorage = (cart) => {
   localStorage.setItem("cart", JSON.stringify(cart));
 };
+Swal.fire({
+  title: 'bienvenidos a S.A - DESARROLLOS WEB',
+  icon: 'info',
+  html:
+    'Puedes consultar enviando un mail, ' +
+    '<a href="mailto:sa.dessrrollosweb@gmail.com">sa.desarrollosweb@gmail.com</a> ' +
+    'y te responderemos a la brevedad',
+  showCloseButton: true,
+  showCancelButton: true,
+  focusConfirm: false,
+  confirmButtonText:
+    '<i class="fa fa-thumbs-up"></i> Gracias!',
+  confirmButtonAriaLabel: 'Thumbs up, great!',
+  cancelButtonText:
+    '<i class="fa fa-thumbs-down"></i>',
+  cancelButtonAriaLabel: 'Thumbs down'
+})
